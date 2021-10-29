@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "realisations",
+  "info": {
+    "name": "Realisation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Texte": {
+      "type": "string"
+    },
+    "Lien": {
+      "type": "string"
+    }
+  }
+}
